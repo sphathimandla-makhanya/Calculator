@@ -13,42 +13,44 @@
         
         <tr id="screen"> 
             <td colspan="4"> 
-                <input type="text" id="result"> 
+                <input type="text" id="result" data-answer> 
             </td> 
         </tr> 
         <div>
             <tr> 
-                <td><input type="button" value="c"></td> 
-                <td><input type="button" value="%"></td> 
-                <td><input type="button" value="<"></td> 
-                <td><input type="button" value=">"></td> 
+                <td><input type="button" value="c" data-cancel></td> 
+                <td><input type="button" value="del" data-delete></td> 
+                <td><input type="button" value="<" data-inequality></td> 
+                <td><input type="button" value=">" data-inequality></td> 
             </tr> 
             <tr> 
-                <td><input type="button" value="7"></td> 
-                <td><input type="button" value="8"></td> 
-                <td><input type="button" value="9"></td> 
-                <td><input type="button" value="/"></td> 
+                <td><input type="button" value="7" data-num></td> 
+                <td><input type="button" value="8" data-num></td> 
+                <td><input type="button" value="9" data-num></td> 
+                <td><input type="button" value="/" data-operator></td> 
             </tr> 
             
             <tr> 
-                <td><input type="button" value="4"></td> 
-                <td><input type="button" value="5"></td> 
-                <td><input type="button" value="6"></td> 
-                <td><input type="button" value="*"></td> 
+                <td><input type="button" value="4" data-num></td> 
+                <td><input type="button" value="5" data-num></td> 
+                <td><input type="button" value="6" data-num></td> 
+                <td><input type="button" value="*" data-operator></td> 
             </tr> 
             <tr> 
-                <td><input type="button" value="1"></td> 
-                <td><input type="button" value="2"></td> 
-                <td><input type="button" value="3"></td> 
-                <td><input type="button" value="-"></td> 
+                <td><input type="button" value="1" data-num></td> 
+                <td><input type="button" value="2" data-num></td> 
+                <td><input type="button" value="3" data-num></td> 
+                <td><input type="button" value="-" data-operator></td> 
             </tr> 
             <tr> 
-                <td><input type="button" value="0"></td> 
-                <td><input type="button" value="."></td> 
-                <td><input type="button" value="+"></td> 
-                <td><input type="button" value="="></td> 
+                <td><input type="button" value="0" data-num></td> 
+                <td><input type="button" value="." data-dot></td> 
+                <td><input type="button" value="+" data-operator></td> 
+                <td><input type="button" value="=" data-equalTo></td> 
             </tr> 
         </div>
     </table> 
+
+    <script src="file.js"></script>
 </body> 
 </html>
