@@ -6,51 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculator</title>
     <link rel="stylesheet" href="Css/style.css">
+    
 </head>
-<body class="body"> 
-  
-    <table class="main"> 
-        
-        <tr id="screen"> 
-            <td colspan="4"> 
-                <input type="text" id="result" data-answer> 
-            </td> 
-        </tr> 
-        <div>
-            <tr> 
-                <td><input type="button" value="c" data-cancel></td> 
-                <td><input type="button" value="del" data-delete></td> 
-                <td><input type="button" value="<" data-inequality></td> 
-                <td><input type="button" value=">" data-inequality></td> 
+<body class="body">
+    <center> 
+    <h1>Simple Calculator</h1>
+        <table class="main"> 
+            <tr id="screen"> 
+                <td colspan="4"> 
+                    <input type="text" id="result" data-answer> 
+                </td> 
             </tr> 
-            <tr> 
-                <td><input type="button" value="7" data-num></td> 
-                <td><input type="button" value="8" data-num></td> 
-                <td><input type="button" value="9" data-num></td> 
-                <td><input type="button" value="/" data-operator></td> 
-            </tr> 
-            
-            <tr> 
-                <td><input type="button" value="4" data-num></td> 
-                <td><input type="button" value="5" data-num></td> 
-                <td><input type="button" value="6" data-num></td> 
-                <td><input type="button" value="*" data-operator></td> 
-            </tr> 
-            <tr> 
-                <td><input type="button" value="1" data-num></td> 
-                <td><input type="button" value="2" data-num></td> 
-                <td><input type="button" value="3" data-num></td> 
-                <td><input type="button" value="-" data-operator></td> 
-            </tr> 
-            <tr> 
-                <td><input type="button" value="0" data-num></td> 
-                <td><input type="button" value="." data-dot></td> 
-                <td><input type="button" value="+" data-operator></td> 
-                <td><input type="button" value="=" data-equalTo></td> 
-            </tr> 
-        </div>
-    </table> 
-
+            <div>
+                <tr id="symbols"> 
+                    <td><input type="button" value="c" data-cancel></td> 
+                    <td><input type="button" value="d" data-delete></td> 
+                    <td><input type="button" value="<" data-inequality></td> 
+                    <td><input type="button" value=">" data-inequality></td> 
+                </tr> 
+                <tr> 
+                    <td><input type="button" value="7" data-num></td> 
+                    <td><input type="button" value="8" data-num></td> 
+                    <td><input type="button" value="9" data-num></td> 
+                    <td><input type="button" value="/" data-operator></td> 
+                </tr> 
+                
+                <tr> 
+                    <td><input type="button" value="4" data-num></td> 
+                    <td><input type="button" value="5" data-num></td> 
+                    <td><input type="button" value="6" data-num></td> 
+                    <td><input type="button" value="*" data-operator></td> 
+                </tr> 
+                <tr> 
+                    <td><input type="button" value="1" data-num></td> 
+                    <td><input type="button" value="2" data-num></td> 
+                    <td><input type="button" value="3" data-num></td> 
+                    <td><input type="button" value="-" data-operator></td> 
+                </tr> 
+                <tr> 
+                    <td><input type="button" value="0" data-num></td> 
+                    <td><input type="button" value="." data-dot></td> 
+                    <td><input type="button" value="+" data-operator></td> 
+                    <td><input id="eql" type="button" value="=" data-equalTo></td> 
+                </tr> 
+            </div>
+        </table> 
+    </center>
     <script src="file.js"></script>
 </body> 
 </html>

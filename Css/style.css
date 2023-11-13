@@ -2,13 +2,10 @@
     padding: 0%;
     margin: 0%;
 }
-.body{
-    width: 100%;
-}
 
 .main { 
     border: 1.6px solid black; 
-    padding: 3px;
+    padding: 6px;
     margin: 15px;
     background-color: navy;
     border-radius: 8px;
@@ -19,15 +16,15 @@
     background-color: darkgray;
     text-align: right;
     margin-bottom: 6px;
-    width: 85%;
+    width: 83.55%;
 }
 
 input[type="button"] { 
     width: 100%; 
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
     font-size: 24px; 
     font-weight: bold; 
     border: none; 
@@ -46,6 +43,7 @@ input[type="text"] {
     border-radius: 5px; 
     border: 2px solid black; 
 } 
+
 
 
 
